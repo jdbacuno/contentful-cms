@@ -90,3 +90,4 @@ Render data in Products component
 - After publishing on Netlify, go to the project setting and build a hook then copy the hook url
 - Paste the webhook url from Netlify to Contentful webhook
 - This will trigger a rebuild on Netlify when the content API have any changes (based on triggers)
+- Don't forget to publish the changes on the content model/fields on Contentful
