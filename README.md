@@ -84,3 +84,9 @@ Setup projects array
 #### Setup Products Component
 
 Render data in Products component
+
+#### Webhook
+
+- After publishing on Netlify, go to the project setting and build a hook then copy the hook url
+- Paste the webhook url from Netlify to Contentful webhook
+- This will trigger a rebuild on Netlify when the content API have any changes (based on triggers)
