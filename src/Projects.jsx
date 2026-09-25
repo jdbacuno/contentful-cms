@@ -2,11 +2,14 @@ import useFetchProjects from './fetchProjects';
 
 const Projects = () => {
   const { loading, projects } = useFetchProjects();
+  console.log(projects);
 
   if (loading) {
     return (
       <section className='projects'>
-        <h2>Loading...</h2>
+        <div className='projects-center'>
+          <h2>Loading...</h2>
+        </div>
       </section>
     );
   }
